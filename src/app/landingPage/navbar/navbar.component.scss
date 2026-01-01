@@ -1,0 +1,50 @@
+nav {
+  display: flex;
+  font-size: 24px;
+  padding: 8px 16px;
+  > div {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    display: flex;
+    justify-content: flex-end;
+    //   gap: 24px;
+  }
+  > div ul {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    list-style-type: none;
+  }
+}
+
+a {
+  text-decoration: none;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.phone-div {
+  > a img {
+    height: 23px;
+    width: 23px;
+  }
+}
+
+// a img {
+//   height: 25%;
+//   width: 10%;
+// }
+
+.language-setting {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.language-setting img {
+  height: 50%;
+  width: 5%;
+}
