@@ -8,7 +8,6 @@ nav {
     gap: 12px;
     display: flex;
     justify-content: flex-end;
-    //   gap: 24px;
   }
   > div ul {
     display: flex;
@@ -24,6 +23,10 @@ a {
   display: flex;
   align-items: center;
   gap: 8px;
+  color: white;
+  > a:hover {
+    color: red;
+  }
 }
 
 .phone-div {
@@ -36,11 +39,6 @@ a {
     width: 23px;
   }
 }
-
-// a img {
-//   height: 25%;
-//   width: 10%;
-// }
 
 .language-setting {
   display: flex;
