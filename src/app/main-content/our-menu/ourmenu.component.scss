@@ -1,0 +1,31 @@
+section {
+  background-image: url(./../../../assets/img/3_section_our_menu/JPG/section_our_menu_bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  > h1 {
+    display: flex;
+    justify-content: center;
+    padding: 1.5em 0em;
+  }
+  > div img {
+    width: 10em;
+    height: 10em;
+  }
+
+  .daily-menu {
+    > div {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      max-width: 60em;
+      min-width: 35em;
+    }
+
+    .p-R {
+      display: flex;
+      display: flex;
+      flex-direction: row-reverse;
+    }
+  }
+}
